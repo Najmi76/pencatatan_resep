@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:resep/consent/colors.dart';
+import 'package:pencatatan_resep/consent/colors.dart';
 
 PreferredSizeWidget appbar() {
+  var maincolor;
   return AppBar(
     automaticallyImplyLeading: false,
     elevation: 0,
